@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SHELFIE HTML and CSS</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class ="header"></header>
-  <main class = "loading">
-    <div clas="logo"></div>
-    <div class="books"></div>
-  </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHELFIE HTML and CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+     <!-- Navigation --> 
+      <nav class="nav-icons">
+    <!-- Home-Page -->
+    <a href="index.html" class="nav-icon nav-icon--home">
+      <img src="assets/home-icon.svg" alt="Home" />
+    </a>
+
+    <!-- Back -->
+    <a href="index.html" class="nav-icon nav-icon--back">
+      <img src="assets/back-arrow.svg" alt="Back" />
+    </a>
+  </nav>
+    </header>
+
+    <!--Loading - LOGO and GIF-->
+    <div class="loading-container">
+      <div class="logo-big">
+        <img src="assets/logo-big.png" alt="Logo" />
+      </div>
+      <div class="loading-shelf">
+        <img src="assets/loading.gif" alt="Shelf" />
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer"><h3 class="footer-title">© 2025 Shelfie</h3></footer>
+  </body>
 </html>
